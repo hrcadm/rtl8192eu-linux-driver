@@ -120,12 +120,12 @@ You should see the line ```driver=8192eu```
 file: /etc/NetworkManager/conf.d/30-mac-randomization.conf
 
 content:
-"# disable MAC randomization during Wifi scan
-\# as this leads to (some) USB WLAN adapters not
-\# being able to connect to a WLAN network,
-\# s. Debian bug #839605.
+``` # disable MAC randomization during Wifi scan
+# as this leads to (some) USB WLAN adapters not
+# being able to connect to a WLAN network,
+# s. Debian bug #839605.
 [device-mac-randomization]
-wifi.scan-rand-mac-address=no"
+wifi.scan-rand-mac-address=no ```
 -----------------------------------------------------------------
     
 If you wish to uninstall the driver at a later point, use
