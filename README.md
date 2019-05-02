@@ -121,9 +121,9 @@ file: /etc/NetworkManager/conf.d/30-mac-randomization.conf
 
 content:
 "# disable MAC randomization during Wifi scan
-# as this leads to (some) USB WLAN adapters not
-# being able to connect to a WLAN network,
-# s. Debian bug #839605.
+\# as this leads to (some) USB WLAN adapters not
+\# being able to connect to a WLAN network,
+\# s. Debian bug #839605.
 [device-mac-randomization]
 wifi.scan-rand-mac-address=no"
 -----------------------------------------------------------------
